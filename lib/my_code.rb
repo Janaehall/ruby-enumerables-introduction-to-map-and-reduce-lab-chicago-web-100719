@@ -1,5 +1,5 @@
 # My Code here....
-def map_to_netativize[array]
+def map_to_netativize(array)
   new_array = Array.new
   array.each do |item|
     item1 = -(item)
