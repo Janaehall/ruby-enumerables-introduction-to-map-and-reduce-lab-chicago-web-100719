@@ -40,7 +40,7 @@ end
 
 def reduce_to_all_true(array)
   array.each do |item|
-    if item != true
+    if item == false
       return false
     end
   end
