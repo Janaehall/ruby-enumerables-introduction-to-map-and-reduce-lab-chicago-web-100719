@@ -7,3 +7,7 @@ def map_to_netativize(array)
   end
   new_array
 end
+
+def map_to_no_change(array)
+  array
+end
