@@ -20,3 +20,11 @@ def map_to_double(array)
   end
   new_array
 end
+
+def map_to_square (array)
+  new_array = Array.new
+  array.each do |item|
+    item1 = item**2
+    new_array << item1
+  end
+end
