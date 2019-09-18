@@ -29,3 +29,11 @@ def map_to_square (array)
   end
   new_array
 end
+
+def reduce_to_total(array)
+  total = 0
+  array.each do |item|
+    total + = item
+  end
+  total
+end
