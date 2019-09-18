@@ -47,4 +47,4 @@ def reduce_to_all_true(array)
   return true
 end
 
-puts reduce_to_all_true(1,2,3,4,5)
+puts reduce_to_all_true([1,2,3,4,5])
