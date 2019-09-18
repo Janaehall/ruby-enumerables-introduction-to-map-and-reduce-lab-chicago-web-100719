@@ -47,4 +47,11 @@ def reduce_to_all_true(array)
   return true
 end
 
-puts reduce_to_all_true([true, true, true])
+def reduce_to_any_true(array)
+  array.each do |item|
+    if item == true
+      return true
+    end
+  end
+  return false
+end
