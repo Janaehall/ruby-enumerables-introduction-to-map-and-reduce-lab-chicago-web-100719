@@ -8,4 +8,4 @@ def map_to_netativize(array)
   new_array
 end
 
-map_to_netativize(array)
+puts map_to_netativize(array)
