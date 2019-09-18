@@ -9,3 +9,5 @@ def map_to_netativize(array)
 end
 
 puts map_to_netativize(array)
+
+puts [1,2,3,4,5]
