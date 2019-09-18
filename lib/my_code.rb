@@ -27,4 +27,5 @@ def map_to_square (array)
     item1 = item**2
     new_array << item1
   end
+  new_array
 end
