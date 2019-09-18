@@ -33,7 +33,7 @@ end
 def reduce_to_total(array)
   total = 0
   array.each do |item|
-    total + = item
+    total += item
   end
   total
 end
