@@ -6,4 +6,3 @@ def map_to_netativize(array)
     new_array << item1
   end
 end
-    
