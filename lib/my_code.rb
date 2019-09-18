@@ -1,4 +1,4 @@
-# My Code here....
+array = [1,2,3,4]
 def map_to_netativize(array)
   new_array = Array.new
   array.each do |item|
@@ -7,3 +7,5 @@ def map_to_netativize(array)
   end
   new_array
 end
+
+map_to_netativize(array)
